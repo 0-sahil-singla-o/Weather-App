@@ -31,7 +31,7 @@ export default function WeatherInput({setweatherdata}){
         "13n":snow
     }
     let API_KEY='619f1b187338472fbb49ab7db24f1eac';
-    let API_URL1= `http://api.openweathermap.org/geo/1.0/direct?q=${search}&appid=${API_KEY}`   
+    let API_URL1= `https://api.openweathermap.org/geo/1.0/direct?q=${search}&appid=${API_KEY}`   
     function Search(event){
     setsearch(event.target.value);
     }
