@@ -1,0 +1,22 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.card{
+    
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.heading{
+    font-family: "poppins","sans-serif";
+    font-weight: 500;
+}
+.headingcard{
+    display: flex;
+    align-items: center;
+}
+.headingcard span{
+    font-size: 15px;
+}
